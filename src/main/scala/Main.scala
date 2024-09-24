@@ -36,6 +36,9 @@
  
   """
   
+  val temp = new InterpreterParser()
 
+  temp.GoParser(golangstring)
+  
   println(PlusSign.toString())
 
